@@ -1,15 +1,19 @@
 {
-  "name": "javascript",
+  "name": "task-checks",
   "version": "1.0.0",
-  "description": "The JavaScript template",
+  "description": "",
+  "main": "src/index.js",
   "scripts": {
-    "start": "parcel ./src/index.html",
-    "build": "parcel build ./src/index.html"
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.5.2"
   },
   "devDependencies": {
-    "parcel": "^2.0.0",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.2.0"
-  },
-  "keywords": ["css", "javascript"]
+    "nodemon": "^3.1.4"
+  }
 }
